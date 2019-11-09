@@ -9,6 +9,9 @@
     --buttons-hover: #1e64b3;
     --off-white: #f4f8ff;
     --start-color: #fafafc;
+    --ligh-blue: #5582d6;
+    --yellow: #f9c544;
+    --green: #23c296;
     --dark: #333;
     --light: #fff;
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
@@ -226,7 +229,7 @@ body {
 }
 
 #text .details {
-    padding: 150px 0;
+    padding: 150px 0 250px 0;
 }
 
 #text .details .top-section {
@@ -318,7 +321,7 @@ body {
     /* font-size: 35px; */
     color: var(--primary-color);
     /* color: #a0b5dd; */
-    background: #fff;
+    background: var(--white);
     border-radius: 50px;
     border: 12px solid var(--white);
 }
@@ -349,6 +352,247 @@ body {
     opacity: 0.1;
     margin: 0 auto;
 }
+
+/* RESTRICTIONS  ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* #restrictions {
+    position: relative;
+    top: -100px;
+}
+
+#restrictions .info {
+    background: var(--white);
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 60px 40px;
+}
+
+#restrictions .column {
+    background: var(--grey-color);
+}
+
+#restrictions .column .side {
+    display: inline-block;
+    padding: 0 20px 20px 20px;
+}
+
+#restrictions .column .inline {
+    display: inline-block;
+}
+
+#restrictions .info .column .icon {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: #23c296;
+    border-radius: 50px;
+} */
+
+
+#restrictions {
+    position: relative;
+    top: -100px;
+}
+
+#restrictions .info {
+    background: var(--white);
+}
+
+#restrictions .info:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#restrictions .info .column {
+    width: 33.3%;
+    float: left;
+    padding: 60px 0 60px 100px;
+    text-align: left;
+    position: relative;
+}
+
+#restrictions .info .column .icon {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: var(--green);
+    border-radius: 50px;
+    position: absolute;
+    top: 52px;
+    left: 50px;
+}
+
+#restrictions .info .column:nth-child(1) .icon {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: var(--ligh-blue);
+    border-radius: 50px;
+    position: absolute;
+    top: 52px;
+    left: 50px;
+}
+
+#restrictions .info .column:nth-child(2) .icon {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: var(--green);
+    border-radius: 50px;
+    position: absolute;
+    top: 52px;
+    left: 50px;
+}
+
+#restrictions .info .column:nth-child(3) .icon {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: var(--yellow);
+    border-radius: 50px;
+    position: absolute;
+    top: 52px;
+    left: 50px;
+}
+
+#restrictions .info .column .fas {
+    color: var(--white);
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+#restrictions .info .column:nth-child(1) .fas {
+    color: #fff;
+    position: absolute;
+    top: 9px;
+    left: 6px;
+}
+
+#restrictions .info .column:nth-child(2) .fas {
+    color: var(--white);
+    position: absolute;
+    top: 9px;
+    left: 11px;
+}
+
+#restrictions .info .column h3 {
+    padding: 0 0 15px;
+    color: var(--secondary-color);
+    font-size: 18px;
+}
+
+#restrictions .info .column p {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--grey-color-2);
+}
+
+
+/* delivery  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#delivery {
+    background: var(--white);
+}
+
+#delivery .options {
+    padding: 100px 0;
+}
+
+#delivery .options:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#delivery .options .column {
+    width: 33.33%;
+    float: left;
+    text-align: left;
+    position: relative;
+}
+
+#delivery .options .column:nth-child(2) {
+    padding-left: 100px;
+}
+
+#delivery .options .column:nth-child(3) {
+    padding-left: 100px;
+}
+
+#delivery .options .column .green-line-2 {
+    height: 3px;
+    width: 50px;
+    background: var(--primary-color);
+    border-radius: 50px;
+    font-weight: 800;
+}
+
+#delivery .options .column h3 {
+    color: var(--secondary-color);
+    font-size: 27px;
+    line-height: 1.8;
+    padding: 20px 0 0;
+    font-weight: 800;
+    text-align: left;
+}
+
+#delivery .options .column .icon-2 {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: var(--green);
+    border-radius: 50px;
+    position: absolute;
+    top: 30px;
+    left: -50px;
+}
+
+#delivery .options .column:nth-child(2) .icon-2 {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: var(--green);
+    border-radius: 50px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+#delivery .options .column:nth-child(3) .icon-2 {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: var(--yellow);
+    border-radius: 50px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+#delivery .options .column .icon-2 .far,
+#delivery .options .column .icon-2 .fas {
+    color: var(--white);
+    position: absolute;
+    top: 9px;
+    left: 8px;
+}
+
+#delivery .options .column h5 {
+    padding: 40px 0 15px 0;
+    color: var(--secondary-color);
+    text-align: left;
+    font-size: 18px;
+}
+
+#delivery .options .column p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #acadb3;
+    line-height: 1.8rem;
+}
+
+
 
 /* MEDIA QUERIES //////////////////////////////////////////////////////////////////////////////////////////////////// */
 @media screen and (max-width: 992px) {
@@ -728,5 +972,80 @@ body {
 
     #text .details .bottom-section .column:nth-child(4) {
         padding: 0;
+    }
+}
+
+
+/* RESTRICTIONS/////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 600px) {
+    #restrictions .info .column {
+        width: 100%;
+        float: left;
+        padding: 60px 0 60px 100px;
+        text-align: left;
+        position: relative;
+    }
+
+    #restrictions .info .column:nth-child(2) {
+        margin: -40px 0;
+    }
+
+
+}
+
+/* DELIVERY/////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 760px) {
+
+
+    #delivery .options {
+        padding: 70px 0 100px 0;
+    }
+
+    #delivery .options .column {
+        width: 100%;
+        float: left;
+        text-align: left;
+        position: relative;
+    }
+
+    #delivery .options .column:nth-child(2) {
+        padding-left: 70px;
+    }
+
+    #delivery .options .column:nth-child(3) {
+        padding-left: 70px;
+    }
+
+    /* #delivery .options .column .icon-2 {
+        display: inline-block;
+        height: 35px;
+        width: 35px;
+        background: #23c296;
+        border-radius: 50px;
+        position: absolute;
+        top: 30px;
+        left: -50px;
+    } */
+
+    #delivery .options .column:nth-child(2) .icon-2 {
+        display: inline-block;
+        height: 35px;
+        width: 35px;
+        background: var(--green);
+        border-radius: 50px;
+        position: absolute;
+        top: 30px;
+        left: 0px;
+    }
+
+    #delivery .options .column:nth-child(3) .icon-2 {
+        display: inline-block;
+        height: 35px;
+        width: 35px;
+        background: var(--yellow);
+        border-radius: 50px;
+        position: absolute;
+        top: 30px;
+        left: 0px;
     }
 }
