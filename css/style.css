@@ -771,467 +771,15 @@ body {
 }
 
 /* MEDIA QUERIES //////////////////////////////////////////////////////////////////////////////////////////////////// */
-@media screen and (max-width: 992px) {
-  .topnav a:not(:first-child) {
-    display: none;
-  }
 
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-
-  .topnav a.joining {
-    color: var(--hover-color);
-    padding: 14px 16px;
-    background: none;
-    border-radius: none;
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .topnav.responsive {
-    position: relative;
-  }
-
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 4px;
-    bottom: 230px;
-  }
-
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  #start .bg-color .car-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-      url("https://www.amanahprestige.com/assets/img/cars/man-bmw.png");
-    min-height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    /* width: 100%; */
-    /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; */
-  }
-
-  #start .bg-color .car-cover .top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 400px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  #start .bg-color .car-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-      url("https://www.amanahprestige.com/assets/img/cars/man-bmw.png");
-    min-height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    /* width: 100%; */
-    /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; */
-  }
-
-  #start .bg-color .car-cover .top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 300px;
-  }
-
-  #start .bg-color .car-cover h3 {
-    font-size: 35px;
-    line-height: 4rem;
-    color: var(--secondary-color);
-    /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; */
-  }
-
-  #start .bg-color .car-cover p {
-    font-size: 17px;
-    /* margin: 90px 0; */
-    color: var(--grey-color-2);
-    /* z-index: 9; */
-    padding-top: 1px;
-    display: none;
-  }
-
-  #start .bg-color .car-cover .bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-  }
-
-  #start .bg-color .car-cover .phone-area {
-    display: inline-block;
-    background: var(--white);
-    /* border-radius: 7px; */
-    border-radius: 50px;
-    padding: 5px;
-  }
-
-  #start .bg-color .car-cover .phone-area input[type="tel"] {
-    padding: 5px 0 5px 5px;
-    width: 170px;
-    font-size: 15px;
-    border: none;
-    opacity: 0.3;
-  }
-
-  #start .bg-color .car-cover .phone-area button {
-    background: var(--primary-color);
-    color: var(--white);
-    font-size: 15px;
-    border-radius: 50px;
-    padding: 15px 25px;
-  }
-}
-
-@media screen and (max-width: 508px) {
-  #start .bg-color .car-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-      url("https://www.amanahprestige.com/assets/img/cars/man-bmw.png");
-    min-height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    /* width: 100%; */
-    /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; */
-  }
-
-  #start .bg-color .car-cover .top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 250px;
-  }
-
-  #start .bg-color .car-cover h3 {
-    font-size: 25px;
-    line-height: 3rem;
-    color: var(--secondary-color);
-    /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; */
-  }
-
-  #start .bg-color .car-cover p {
-    font-size: 17px;
-    /* margin: 90px 0; */
-    color: var(--grey-color-2);
-    /* z-index: 9; */
-    padding-top: 1px;
-    display: none;
-  }
-
-  #start .bg-color .car-cover .bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-  }
-
-  #start .bg-color .car-cover .phone-area {
-    display: inline-block;
-    background: var(--white);
-    /* border-radius: 7px; */
-    border-radius: 50px;
-    padding: 2px;
-  }
-
-  #start .bg-color .car-cover .phone-area input[type="tel"] {
-    padding: 5px 0 5px 5px;
-    width: 150px;
-    font-size: 12px;
-    border: none;
-    opacity: 0.3;
-  }
-
-  #start .bg-color .car-cover .phone-area button {
-    background: var(--primary-color);
-    color: var(--white);
-    font-size: 12px;
-    border-radius: 50px;
-    padding: 10px 8px;
-  }
-}
-
-@media screen and (max-width: 401px) {
-  #start .bg-color .car-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-      url("https://www.amanahprestige.com/assets/img/cars/man-bmw.png");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    /* width: 100%; */
-    /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; */
-  }
-
-  #start .bg-color .car-cover .top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 150px;
-  }
-
-  #start .bg-color .car-cover h3 {
-    font-size: 12px;
-    line-height: 2rem;
-    color: var(--secondary-color);
-    /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; */
-  }
-
-  #start .bg-color .car-cover p {
-    font-size: 17px;
-    /* margin: 90px 0; */
-    color: var(--grey-color-2);
-    /* z-index: 9; */
-    padding-top: 1px;
-    display: none;
-  }
-
-  #start .bg-color .car-cover .bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-  }
-
-  #start .bg-color .car-cover .phone-area {
-    display: inline-block;
-    background: var(--white);
-    /* border-radius: 7px; */
-    border-radius: 50px;
-    padding: 1px;
-  }
-
-  #start .bg-color .car-cover .phone-area input[type="tel"] {
-    padding: 5px 0 5px 5px;
-    width: 70px;
-    font-size: 7px;
-    border: none;
-    /* opacity: 0.3; */
-  }
-
-  #start .bg-color .car-cover .phone-area button {
-    background: var(--primary-color);
-    color: var(--white);
-    font-size: 7px;
-    border-radius: 50px;
-    padding: 8px 6px;
-  }
-}
-
-@media screen and (max-width: 1080px) {
-  /* TEXT ///////////////////////////////////////////////////////////////////*/
-
-  #text .details .bottom-section {
-    display: grid;
-    grid-gap: 20px;
-    text-align: center;
-    grid-template-areas:
-      "text-box-a text-box-b "
-      "text-box-c text-box-d";
-  }
-
-  .text-box-a {
-    grid-area: text-box-a;
-  }
-
-  .text-box-b {
-    grid-area: text-box-b;
-  }
-
-  .text-box-c {
-    grid-area: text-box-c;
-  }
-
-  .text-box-d {
-    grid-area: text-box-d;
-  }
-
-  #text .details .bottom-section .column:nth-child(1) {
-    padding: 0;
-  }
-
-  #text .details .bottom-section .column:nth-child(2) {
-    padding: 0;
-  }
-
-  #text .details .bottom-section .column:nth-child(3) {
-    padding: 0;
-  }
-
-  #text .details .bottom-section .column:nth-child(4) {
-    padding: 0;
-  }
-}
-
-@media screen and (max-width: 545px) {
-  /* TEXT ///////////////////////////////////////////////////////////////////*/
-
-  #text .details .bottom-section {
-    display: grid;
-    grid-gap: 20px;
-    text-align: center;
-    grid-template-areas:
-      "text-box-a"
-      "text-box-b"
-      "text-box-c"
-      "text-box-d";
-  }
-
-  .text-box-a {
-    grid-area: text-box-a;
-  }
-
-  .text-box-b {
-    grid-area: text-box-b;
-  }
-
-  .text-box-c {
-    grid-area: text-box-c;
-  }
-
-  .text-box-d {
-    grid-area: text-box-d;
-  }
-
-  #text .details .bottom-section .column:nth-child(1) {
-    padding: 0;
-  }
-
-  #text .details .bottom-section .column:nth-child(2) {
-    padding: 0;
-  }
-
-  #text .details .bottom-section .column:nth-child(3) {
-    padding: 0;
-  }
-
-  #text .details .bottom-section .column:nth-child(4) {
-    padding: 0;
-  }
-}
-
-/* RESTRICTIONS/////////////////////////////////////////////////////////////////////////// */
-@media screen and (max-width: 600px) {
-  #restrictions .info .column {
-    width: 100%;
-    float: left;
-    padding: 60px 0 60px 100px;
-    text-align: left;
-    position: relative;
-  }
-
-  #restrictions .info .column:nth-child(2) {
-    margin: -40px 0;
-  }
-}
-
-/* DELIVERY/////////////////////////////////////////////////////////////////////////// */
-@media screen and (max-width: 760px) {
-  #delivery .options {
-    padding: 70px 0 100px 0;
-  }
-
-  #delivery .options .column {
-    width: 100%;
-    float: left;
-    text-align: left;
-    position: relative;
-  }
-
-  #delivery .options .column:nth-child(2) {
-    padding-left: 70px;
-  }
-
-  #delivery .options .column:nth-child(3) {
-    padding-left: 70px;
-  }
-
-  /* #delivery .options .column .icon-2 {
-        display: inline-block;
-        height: 35px;
-        width: 35px;
-        background: #23c296;
-        border-radius: 50px;
-        position: absolute;
-        top: 30px;
-        left: -50px;
-    } */
-
-  #delivery .options .column:nth-child(2) .icon-2 {
-    display: inline-block;
-    height: 35px;
-    width: 35px;
-    background: var(--green);
-    border-radius: 50px;
-    position: absolute;
-    top: 30px;
-    left: 0px;
-  }
-
-  #delivery .options .column:nth-child(3) .icon-2 {
-    display: inline-block;
-    height: 35px;
-    width: 35px;
-    background: var(--yellow);
-    border-radius: 50px;
-    position: absolute;
-    top: 30px;
-    left: 0px;
-  }
-}
-
-@media screen and (max-width: 1260px) {
+@media (max-width: 1260px) {
   /* CARS///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
   #cars {
     background: var(--white);
-    padding-bottom: 200px;
   }
 
   #cars .contain {
     display: grid;
-    grid-gap: 100px;
-
     grid-template-areas:
       "left-side "
       "right-side";
@@ -1240,10 +788,6 @@ body {
   #cars .contain .left-side {
     grid-area: left-side;
     background: var(--primary-color);
-    /* height: 700px; */
-    /* width: 1000px; */
-    justify-items: center;
-    align-items: center;
     text-align: center;
   }
 
@@ -1320,24 +864,19 @@ body {
   .box-a {
     grid-area: box-a;
     background: var(--white);
-    /* justify-items: center;
-    align-items: center; */
     text-align: center;
     height: 350px;
-    /* width: 332.09px; */
   }
   .box-b {
     grid-area: box-b;
     background: var(--white);
     text-align: center;
-    /* width: 332.09px; */
     height: 350px;
   }
   .box-c {
     grid-area: box-c;
     background: var(--white);
     text-align: center;
-    /* width: 332.09px; */
     height: 350px;
   }
   .box-d {
@@ -1345,7 +884,6 @@ body {
     background: var(--white);
     text-align: center;
     height: 350px;
-    /* width: 332.09px; */
   }
 
   .right-side {
@@ -1393,7 +931,89 @@ body {
   }
 }
 
-@media screen and (max-width: 920px) {
+@media (max-width: 1080px) {
+  /* TEXT ///////////////////////////////////////////////////////////////////*/
+
+  #text .details .bottom-section {
+    display: grid;
+    grid-gap: 20px;
+    text-align: center;
+    grid-template-areas:
+      "text-box-a text-box-b "
+      "text-box-c text-box-d";
+  }
+
+  .text-box-a {
+    grid-area: text-box-a;
+  }
+
+  .text-box-b {
+    grid-area: text-box-b;
+  }
+
+  .text-box-c {
+    grid-area: text-box-c;
+  }
+
+  .text-box-d {
+    grid-area: text-box-d;
+  }
+
+  #text .details .bottom-section .column:nth-child(1) {
+    padding: 0;
+  }
+
+  #text .details .bottom-section .column:nth-child(2) {
+    padding: 0;
+  }
+
+  #text .details .bottom-section .column:nth-child(3) {
+    padding: 0;
+  }
+
+  #text .details .bottom-section .column:nth-child(4) {
+    padding: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  /* HEADER /////////////////////////////////////////////////////////////////////////////////*/
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav a.joining {
+    color: var(--hover-color);
+    padding: 14px 16px;
+    background: none;
+    border-radius: none;
+    font-size: 16px;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    bottom: 230px;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media (max-width: 920px) {
   /* CARS///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
   #cars {
     background: var(--white);
@@ -1412,8 +1032,6 @@ body {
   #cars .contain .left-side {
     grid-area: left-side;
     background: var(--primary-color);
-    /* height: 700px; */
-    /* width: 1000px; */
     justify-items: center;
     align-items: center;
     text-align: center;
@@ -1493,7 +1111,7 @@ body {
     grid-area: box-a;
     background: var(--white);
     /* justify-items: center;
-      align-items: center; */
+        align-items: center; */
     text-align: center;
     height: 350px;
     /* width: 332.09px; */
@@ -1564,7 +1182,34 @@ body {
     background: var(--buttons-hover);
   }
 }
-@media screen and (max-width: 815px) {
+
+@media (max-width: 850px) {
+  /* GET STARTED * ///////////////////////////////////////////////////////////////////////////////////////////// */
+  #start .bg-color .car-cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url("https://www.amanahprestige.com/assets/img/cars/man-bmw.png");
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    /* width: 100%; */
+    /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+  }
+
+  #start .bg-color .car-cover .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 400px;
+  }
+}
+
+@media (max-width: 815px) {
   /* CARS///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
   #cars {
     background: var(--white);
@@ -1664,7 +1309,7 @@ body {
     grid-area: box-a;
     background: var(--white);
     /* justify-items: center;
-      align-items: center; */
+        align-items: center; */
     text-align: center;
     height: 300px;
     /* width: 332.09px; */
@@ -1735,30 +1380,72 @@ body {
     background: var(--buttons-hover);
   }
 }
-@media screen and (max-width: 730px) {
+
+@media (max-width: 760px) {
+  /* DELIVERY/////////////////////////////////////////////////////////////////////////// */
+  #delivery .options {
+    padding: 70px 0 100px 0;
+  }
+
+  #delivery .options .column {
+    width: 100%;
+    float: left;
+    text-align: left;
+    position: relative;
+  }
+
+  #delivery .options .column:nth-child(2) {
+    padding-left: 70px;
+  }
+
+  #delivery .options .column:nth-child(3) {
+    padding-left: 70px;
+  }
+
+  /* #delivery .options .column .icon-2 {
+          display: inline-block;
+          height: 35px;
+          width: 35px;
+          background: #23c296;
+          border-radius: 50px;
+          position: absolute;
+          top: 30px;
+          left: -50px;
+      } */
+
+  #delivery .options .column:nth-child(2) .icon-2 {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: var(--green);
+    border-radius: 50px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+  }
+
+  #delivery .options .column:nth-child(3) .icon-2 {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background: var(--yellow);
+    border-radius: 50px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+  }
+}
+
+@media (max-width: 730px) {
   /* CARS///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
   #cars {
     background: var(--white);
     padding-bottom: 200px;
   }
 
-  #cars .contain {
-    display: grid;
-    /* grid-gap: 100px; */
-
-    grid-template-areas:
-      "left-side "
-      "right-side";
-  }
-
   #cars .contain .left-side {
-    grid-area: left-side;
+    /* background: none; */
     background: var(--primary-color);
-    /* height: 700px; */
-    /* width: 1000px; */
-    justify-items: center;
-    align-items: center;
-    text-align: center;
   }
 
   #cars .contain .left-side .bg-container img {
@@ -1772,7 +1459,7 @@ body {
   }
 
   #cars .contain .left-side .bg-container .value {
-    margin-top: 30px;
+    margin-top: 10px;
   }
   #cars .contain .left-side .bg-container .cash {
     color: var(--secondary-color);
@@ -1786,24 +1473,11 @@ body {
     font-weight: 400;
   }
 
-  #cars .contain .left-side .bg-container .box-a img {
-    /* padding-top: 20px;
-    padding-bottom: 70px; */
-  }
-  #cars .contain .left-side .bg-container .box-b img {
-    /* padding-top: 35px; */
-  }
-  #cars .contain .left-side .bg-container .box-c img {
-    /* padding-top: 55px; */
-  }
   #cars .contain .left-side .bg-container .box-d img {
-    /* padding-top: 75px; */
+    padding-top: 59px;
   }
 
   #cars .contain .left-side .bg-container .model {
-    display: grid;
-    justify-items: center;
-    align-items: center;
     text-align: center;
   }
 
@@ -1821,7 +1495,6 @@ body {
 
   #cars .contain .left-side .bg-container {
     display: grid;
-    grid-gap: 30px;
     grid-template-areas:
       "box-a"
       "box-b"
@@ -1829,44 +1502,39 @@ body {
       "box-d";
     align-items: center;
     justify-items: center;
-    /* padding: 0 100px; */
-    margin-top: -42px;
-    margin-bottom: -42px;
+    /* margin-top: -42px;
+    margin-bottom: -42px; */
+    /* margin: 0; */
+    padding: 0;
   }
 
   .box-a {
     grid-area: box-a;
     background: var(--white);
-    /* justify-items: center;
-      align-items: center; */
     text-align: center;
-    height: 100%;
-    /* width: 332.09px; */
-    width: 100%;
+    height: 251px;
+    width: 227.94px;
   }
   .box-b {
     grid-area: box-b;
     background: var(--white);
     text-align: center;
-    height: 100%;
-    /* width: 332.09px; */
-    width: 100%;
+    height: 251px;
+    width: 227.94px;
   }
   .box-c {
     grid-area: box-c;
     background: var(--white);
     text-align: center;
-    height: 100%;
-    /* width: 332.09px; */
-    width: 100%;
+    height: 251px;
+    width: 227.94px;
   }
   .box-d {
     grid-area: box-d;
     background: var(--white);
     text-align: center;
-    height: 100%;
-    /* width: 332.09px; */
-    width: 100%;
+    height: 251px;
+    width: 227.94px;
   }
 
   .right-side {
@@ -1906,145 +1574,230 @@ body {
     color: var(--white);
     font-size: 17px;
     font-weight: 500;
-    width: 50%;
+    width: 100%;
   }
 
   #cars .contain .right-side a:hover {
     background: var(--buttons-hover);
   }
 }
-@media screen and (max-width: 555px) {
-  /* CARS///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-  #cars {
+
+@media (max-width: 700px) {
+  /* GET STARTED * ///////////////////////////////////////////////////////////////////////////////////////////// */
+  #start .bg-color .car-cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url("https://www.amanahprestige.com/assets/img/cars/man-bmw.png");
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    /* width: 100%; */
+    /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+  }
+
+  #start .bg-color .car-cover .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 300px;
+  }
+
+  #start .bg-color .car-cover h3 {
+    font-size: 35px;
+    line-height: 4rem;
+    color: var(--secondary-color);
+    /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+  }
+
+  #start .bg-color .car-cover p {
+    font-size: 17px;
+    /* margin: 90px 0; */
+    color: var(--grey-color-2);
+    /* z-index: 9; */
+    padding-top: 1px;
+    display: none;
+  }
+
+  #start .bg-color .car-cover .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  #start .bg-color .car-cover .phone-area {
+    display: inline-block;
     background: var(--white);
-    padding-bottom: 200px;
+    /* border-radius: 7px; */
+    border-radius: 50px;
+    padding: 5px;
   }
 
-  #cars .contain {
-    display: grid;
-    /* grid-gap: 100px; */
-
-    grid-template-areas:
-      "left-side "
-      "right-side";
-  }
-
-  #cars .contain .left-side {
-    grid-area: left-side;
-    background: var(--primary-color);
-    /* height: 700px; */
-    /* width: 1000px; */
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  #cars .contain .left-side .bg-container img {
-    width: 60%;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-  }
-  #cars .contain .left-side .bg-container img:hover {
-    width: 65%;
-  }
-
-  #cars .contain .left-side .bg-container .value {
-    margin-top: 30px;
-  }
-  #cars .contain .left-side .bg-container .cash {
-    color: var(--secondary-color);
-    font-size: 25px;
-    font-weight: 600;
-  }
-
-  #cars .contain .left-side .bg-container .cash span {
-    color: var(--secondary-color);
+  #start .bg-color .car-cover .phone-area input[type="tel"] {
+    padding: 5px 0 5px 5px;
+    width: 170px;
     font-size: 15px;
-    font-weight: 400;
+    border: none;
+    opacity: 0.3;
   }
 
-  #cars .contain .left-side .bg-container .box-a img {
-    padding-top: 35px;
+  #start .bg-color .car-cover .phone-area button {
+    background: var(--primary-color);
+    color: var(--white);
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 15px 25px;
   }
-  #cars .contain .left-side .bg-container .box-b img {
-    padding-top: 35px;
-  }
-  #cars .contain .left-side .bg-container .box-c img {
-    padding-top: 55px;
-  }
-  #cars .contain .left-side .bg-container .box-d img {
-    padding-top: 75px;
+}
+
+@media (max-width: 600px) {
+  /* RESTRICTIONS/////////////////////////////////////////////////////////////////////////// */
+  #restrictions .info .column {
+    width: 100%;
+    float: left;
+    padding: 60px 0 60px 100px;
+    text-align: left;
+    position: relative;
   }
 
-  #cars .contain .left-side .bg-container .model {
+  #restrictions .info .column:nth-child(2) {
+    margin: -40px 0;
+  }
+}
+
+@media (max-width: 545px) {
+  /* TEXT ///////////////////////////////////////////////////////////////////*/
+
+  #text .details .bottom-section {
     display: grid;
-    justify-items: center;
-    align-items: center;
+    grid-gap: 20px;
     text-align: center;
-  }
-
-  #cars .contain .left-side .bg-container .brand {
-    text-decoration: none;
-    color: var(--secondary-color);
-    font-size: 18px;
-    font-weight: 400;
-    padding-top: 7px;
-  }
-
-  #cars .contain .left-side a {
-    text-decoration: none;
-  }
-
-  #cars .contain .left-side .bg-container {
-    display: grid;
-    grid-gap: 30px;
     grid-template-areas:
-      "box-a"
-      "box-b"
-      "box-c "
-      "box-d";
-    align-items: center;
-    justify-items: center;
-    /* padding: 0 100px; */
-    margin-top: -42px;
-    margin-bottom: -42px;
+      "text-box-a"
+      "text-box-b"
+      "text-box-c"
+      "text-box-d";
   }
 
-  .box-a {
-    grid-area: box-a;
-    background: var(--white);
-    /* justify-items: center;
-      align-items: center; */
-    text-align: center;
-    height: 100%;
-    /* width: 332.09px; */
-    width: 100%;
+  .text-box-a {
+    grid-area: text-box-a;
   }
-  .box-b {
-    grid-area: box-b;
-    background: var(--white);
-    text-align: center;
-    height: 100%;
-    /* width: 332.09px; */
-    width: 100%;
+
+  .text-box-b {
+    grid-area: text-box-b;
   }
-  .box-c {
-    grid-area: box-c;
-    background: var(--white);
-    text-align: center;
-    height: 100%;
-    /* width: 332.09px; */
-    width: 100%;
+
+  .text-box-c {
+    grid-area: text-box-c;
   }
-  .box-d {
-    grid-area: box-d;
-    background: var(--white);
-    text-align: center;
-    height: 100%;
-    /* width: 332.09px; */
-    width: 100%;
+
+  .text-box-d {
+    grid-area: text-box-d;
   }
+
+  #text .details .bottom-section .column:nth-child(1) {
+    padding: 0;
+  }
+
+  #text .details .bottom-section .column:nth-child(2) {
+    padding: 0;
+  }
+
+  #text .details .bottom-section .column:nth-child(3) {
+    padding: 0;
+  }
+
+  #text .details .bottom-section .column:nth-child(4) {
+    padding: 0;
+  }
+}
+
+@media (max-width: 508px) {
+  /* GET STARTED * ///////////////////////////////////////////////////////////////////////////////////////////// */
+  #start .bg-color .car-cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url("https://www.amanahprestige.com/assets/img/cars/man-bmw.png");
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    /* width: 100%; */
+    /* display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; */
+  }
+
+  #start .bg-color .car-cover .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 250px;
+  }
+
+  #start .bg-color .car-cover h3 {
+    font-size: 25px;
+    line-height: 3rem;
+    color: var(--secondary-color);
+    /* display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; */
+  }
+
+  #start .bg-color .car-cover p {
+    font-size: 17px;
+    /* margin: 90px 0; */
+    color: var(--grey-color-2);
+    /* z-index: 9; */
+    padding-top: 1px;
+    display: none;
+  }
+
+  #start .bg-color .car-cover .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  #start .bg-color .car-cover .phone-area {
+    display: inline-block;
+    background: var(--white);
+    /* border-radius: 7px; */
+    border-radius: 50px;
+    padding: 2px;
+  }
+
+  #start .bg-color .car-cover .phone-area input[type="tel"] {
+    padding: 5px 0 5px 5px;
+    width: 150px;
+    font-size: 12px;
+    border: none;
+    opacity: 0.3;
+  }
+
+  #start .bg-color .car-cover .phone-area button {
+    background: var(--primary-color);
+    color: var(--white);
+    font-size: 12px;
+    border-radius: 50px;
+    padding: 10px 8px;
+  }
+}
+
+@media (max-width: 420px) {
+  /* CARS///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
   .right-side {
     grid-area: right-side;
@@ -2083,10 +1836,86 @@ body {
     color: var(--white);
     font-size: 17px;
     font-weight: 500;
-    width: 50%;
+    /* width: 100%; */
   }
 
   #cars .contain .right-side a:hover {
     background: var(--buttons-hover);
+  }
+}
+
+@media screen and (max-width: 401px) {
+  /* GET STARTED * ///////////////////////////////////////////////////////////////////////////////////////////// */
+  #start .bg-color .car-cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url("https://www.amanahprestige.com/assets/img/cars/man-bmw.png");
+    min-height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    /* width: 100%; */
+    /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+  }
+
+  #start .bg-color .car-cover .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 150px;
+  }
+
+  #start .bg-color .car-cover h3 {
+    font-size: 12px;
+    line-height: 2rem;
+    color: var(--secondary-color);
+    /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+  }
+
+  #start .bg-color .car-cover p {
+    font-size: 17px;
+    /* margin: 90px 0; */
+    color: var(--grey-color-2);
+    /* z-index: 9; */
+    padding-top: 1px;
+    display: none;
+  }
+
+  #start .bg-color .car-cover .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  #start .bg-color .car-cover .phone-area {
+    display: inline-block;
+    background: var(--white);
+    /* border-radius: 7px; */
+    border-radius: 50px;
+    padding: 1px;
+  }
+
+  #start .bg-color .car-cover .phone-area input[type="tel"] {
+    padding: 5px 0 5px 5px;
+    width: 70px;
+    font-size: 7px;
+    border: none;
+    /* opacity: 0.3; */
+  }
+
+  #start .bg-color .car-cover .phone-area button {
+    background: var(--primary-color);
+    color: var(--white);
+    font-size: 7px;
+    border-radius: 50px;
+    padding: 8px 6px;
   }
 }
