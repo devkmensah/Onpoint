@@ -770,6 +770,178 @@ body {
   background: var(--buttons-hover);
 }
 
+/* HAPPY-CUSTOMER //////////////////////////////////////////////////////////////////////////////////// */
+#customer {
+  background: #f4f8ff;
+}
+
+#customer .subscriptions {
+  padding: 200px 0;
+}
+
+#customer .subscriptions .top-section {
+  text-align: center;
+  padding: 0 0 200px;
+}
+
+#customer .subscriptions .top-section .green-line-3 {
+  height: 3px;
+  width: 50px;
+  background: #77a0ee;
+  border-radius: 50px;
+  margin: 0 auto;
+  font-weight: 800;
+}
+
+#customer .subscriptions .top-section h3 {
+  color: #111c44;
+  font-size: 27px;
+  text-transform: capitalize;
+  padding: 50px 0;
+}
+
+#customer .subscriptions .top-section p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #acadb3;
+  line-height: 1.8rem;
+}
+
+#customer .subscriptions .plan-section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#customer .subscriptions .plan-section .column {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  display: inline-block;
+}
+
+#customer .subscriptions .plan-section .column:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#customer .subscriptions .plan-section .column .box {
+  background: green;
+  height: 500px;
+  width: 330px;
+  padding: 40px;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  float: left;
+  position: relative;
+  border-radius: 5px;
+  left: 10px;
+}
+
+#customer .subscriptions .plan-section .column:nth-child(2) .box {
+  background: #fff;
+  height: 600px;
+  width: 330px;
+  padding: 40px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  bottom: 100px;
+  border-top: 2px solid #77a0ee;
+}
+
+#customer .subscriptions .plan-section .column .box a {
+  text-decoration: none;
+}
+
+#customer .subscriptions .plan-section .column .box .choose {
+  color: #111c44;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+#customer .subscriptions .plan-section .column .box .choose h3 {
+  margin-top: -13px;
+}
+
+#customer .subscriptions .plan-section .column:nth-child(2) .box .choose h3 {
+  color: #111c44;
+  font-size: 22px;
+  padding: 50px 0 0;
+}
+
+#customer .subscriptions .plan-section .column .box .recommend {
+  color: #77a0ee;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+#customer .subscriptions .plan-section .column .box .recommend:hover,
+#customer .subscriptions .plan-section .column .box .recommend:active {
+  font-size: 150%;
+}
+
+#customer .subscriptions .plan-section .column .box .pound {
+  font-weight: 500;
+  color: #acadb3;
+}
+
+#customer .subscriptions .plan-section .column .box .pound h3 {
+  font-size: 17px;
+  font-weight: 500;
+  color: #acadb3;
+  margin: 50px 0;
+}
+
+#customer .subscriptions .plan-section .column .box .pound h3 .price {
+  font-size: 28px;
+  color: #77a0ee;
+  font-weight: 800;
+}
+
+#customer .subscriptions .plan-section .column .box .grey-line-2 {
+  height: 2px;
+  width: 200px;
+  background: #acadb3;
+  opacity: 0.1;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#customer .subscriptions .plan-section .column .box p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #acadb3;
+  line-height: 1.8rem;
+  margin-bottom: 50px;
+}
+
+#customer .subscriptions .plan-section .column .box .start {
+  display: block;
+  margin-bottom: 50px;
+  padding: 20px 40px;
+  background: #77a0ee;
+  border-radius: 50px;
+  color: #fff;
+}
+
+#customer .subscriptions .plan-section .column .box .start:hover {
+  background: #1e64b3;
+}
+
+#customer .subscriptions .plan-section .column .box .view {
+  display: inline-block;
+  color: #77a0ee;
+}
+
+#customer .subscriptions .plan-section .column .box .view .icon {
+  display: block;
+  margin-top: 20px;
+}
+
 /* MEDIA QUERIES //////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 @media (max-width: 1260px) {
