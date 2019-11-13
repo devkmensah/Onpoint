@@ -270,6 +270,7 @@ body {
     color: var(--secondary-color);
     font-size: 27px;
     text-align: center;
+    line-height: 1.3;
 }
 
 #text .details .top-section p {
@@ -509,7 +510,7 @@ body {
 }
 
 #delivery .options {
-    padding: 100px 0 250px;
+    padding: 50px 0 200px;
 }
 
 #delivery .options:after {
@@ -782,12 +783,151 @@ body {
 
 /* HAPPY-CUSTOMER //////////////////////////////////////////////////////////////////////////////////// */
 #customer {
-    background: #f4f8ff;
+    background: var(--off-white);
 }
 
-#customer .subscriptions {
-    padding: 200px 0;
+#customer {
+    padding: 100px 0 150px;
 }
+
+#customer .top-section {
+    text-align: center;
+    padding: 0 0 150px;
+}
+
+#customer .top-section .green-line-3 {
+    height: 3px;
+    width: 50px;
+    background: var(--primary-color);
+    border-radius: 50px;
+    margin: 0 auto;
+    font-weight: 800;
+}
+
+#customer .top-section h3 {
+    color: var(--secondary-color);
+    font-size: 27px;
+    text-transform: capitalize;
+    padding: 50px 0;
+    line-height: 1.3;
+}
+
+#customer .top-section p {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--grey-color-2);
+    line-height: 1.8rem;
+}
+
+/* HAPPY-CUSTOMER, BOXES /////////////////////////////////////////////////////////////*/
+#customer a {
+    text-decoration: none;
+}
+
+#customer ul {
+    text-align: center;
+}
+
+#customer li {
+    margin-bottom: 20px;
+}
+
+#customer ul li .box {
+    background: var(--white);
+    padding: 25px 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#customer ul li:nth-child(2) {
+    border-top: 2px solid var(--primary-color);
+    border-radius: 4px;
+}
+
+#customer ul li .box h3 {
+    padding-bottom: 20px;
+    color: var(--secondary-color);
+    font-size: 22px;
+}
+
+#customer ul li .box h2 {
+    /* padding-top: 35px; */
+    padding-bottom: 35px;
+}
+
+#customer ul li .box h2 a {
+    color: var(--primary-color);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#customer ul li .box h2 a:hover,
+#customer ul li .box h2 a:active {
+    font-size: 150%;
+}
+
+#customer ul li .box .pound {
+    padding-bottom: 10px;
+    font-weight: 500;
+    color: var(--grey-color-2);
+    font-size: 17px;
+    display: inline-block;
+}
+
+#customer ul li .box .pound .price {
+    font-size: 28px;
+    color: var(--primary-color);
+    font-weight: 800;
+    display: inline-block;
+}
+
+#customer ul li .box .grey-line-2 {
+    height: 2px;
+    width: 100%;
+    background: var(--grey-color-2);
+    opacity: 0.1;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#customer ul li .box p {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--grey-color-2);
+    line-height: 1.8rem;
+    margin-bottom: 20px;
+}
+
+#customer ul li .box .click {}
+
+#customer ul li .box .click a {
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px 0px;
+    background: var(--primary-color);
+    border-radius: 50px;
+    color: var(--white);
+
+}
+
+#customer ul li .box .click a:hover {
+    background: var(--buttons-hover);
+}
+
+#customer ul li .box .view {
+    display: block;
+    color: var(--primary-color);
+}
+
+#customer ul li .box span {
+    display: block;
+    margin-top: 20px;
+    color: var(--primary-color);
+}
+
+
+
 
 /* FOOTER //////////////////////////////////////////////////////////////////////////////////////////// */
 #footer {
@@ -815,6 +955,7 @@ body {
     display: inline-block;
     float: left;
     font-size: 27px;
+    line-height: 1.3;
 }
 
 #footer .top a {
@@ -940,6 +1081,7 @@ body {
     /* CARS///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
     #cars {
         background: var(--white);
+        padding-bottom: 150px;
     }
 
     #cars .contain {
@@ -1062,7 +1204,7 @@ body {
         grid-area: right-side;
         text-align: center;
         align-self: center;
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
     #cars .contain .right-side h3 {
@@ -1190,9 +1332,12 @@ body {
 @media (max-width: 920px) {
 
     /* CARS///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
     #cars {
         background: var(--white);
-        padding-bottom: 200px;
+        padding-bottom: 150px;
     }
 
     #cars .contain {
@@ -1398,7 +1543,7 @@ body {
     /* CARS///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
     #cars {
         background: var(--white);
-        padding-bottom: 200px;
+        padding-bottom: 150px;
     }
 
     #cars .contain {
@@ -1572,13 +1717,125 @@ body {
     #cars .contain .right-side a:hover {
         background: var(--buttons-hover);
     }
+
+
+
+}
+
+/* @media(min-width: 767px) */
+@media(min-width: 778px) {
+
+    /* HAPPY-CUSTOMER , TOP BOXES////////////////////////////////////////////*/
+    #customer .top-section {
+        text-align: center;
+        padding: 0 0 200px;
+    }
+
+    #customer ul {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #customer ul li:nth-child(2) {
+        border-top: 2px solid var(--primary-color);
+        border-radius: 4px;
+        margin-top: -69px;
+    }
+
+    #customer ul li:nth-child(2) .box h2 {
+        /* padding-top: 80px; */
+        /* padding-bottom: 80px; */
+        /* display: none; */
+        /* margin-bottom: 80px; */
+
+    }
+
+    #customer ul li:nth-child(2) .box {
+        /* padding: 80px 25px 25px; */
+    }
+
+    #customer li {
+        width: 31%;
+    }
+
+    #customer ul li .box .click a {
+        display: block;
+        margin-bottom: 20px;
+        padding: 20px 0px;
+        background: var(--primary-color);
+        border-radius: 50px;
+        color: var(--white);
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #customer ul li .box {
+        background: var(--white);
+        padding: 35px 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    #customer ul li .box h3 {
+        padding-bottom: 30px;
+        color: var(--secondary-color);
+        font-size: 22px;
+    }
+
+    #customer ul li .box h2 {
+        /* padding-top: 35px; */
+        padding-bottom: 45px;
+    }
+
+    #customer ul li .box .pound {
+        padding-bottom: 20px;
+        font-weight: 500;
+        color: var(--grey-color-2);
+        font-size: 17px;
+        display: inline-block;
+    }
+
+    #customer ul li .box .grey-line-2 {
+        height: 2px;
+        width: 100%;
+        background: var(--grey-color-2);
+        opacity: 0.1;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    #customer ul li .box p {
+        font-size: 17px;
+        font-weight: 500;
+        color: var(--grey-color-2);
+        line-height: 1.8rem;
+        margin-bottom: 30px;
+    }
+
+    #customer ul li .box .click a {
+        display: block;
+        margin-bottom: 30px;
+        padding: 20px 0px;
+        background: var(--primary-color);
+        border-radius: 50px;
+        color: var(--white);
+
+    }
+
+    #customer ul li .box span {
+        display: block;
+        margin-top: 30px;
+        color: var(--primary-color);
+    }
+
 }
 
 @media (max-width: 760px) {
 
     /* DELIVERY/////////////////////////////////////////////////////////////////////////// */
     #delivery .options {
-        padding: 70px 0 100px 0;
+        padding: 0px 0 150px 0;
     }
 
     #delivery .options .column {
@@ -1628,6 +1885,8 @@ body {
         top: 30px;
         left: 0px;
     }
+
+
 }
 
 @media (max-width: 730px) {
@@ -1635,7 +1894,7 @@ body {
     /* CARS///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
     #cars {
         background: var(--white);
-        padding-bottom: 200px;
+        padding-bottom: 150px;
     }
 
     #cars .contain .left-side {
