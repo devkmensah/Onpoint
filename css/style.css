@@ -832,7 +832,7 @@ body {
     background: var(--primary-color);
     border-radius: 50px;
     color: var(--white);
-
+    font-size: 17px;
 }
 
 #customer ul li .box .click a:hover {
@@ -1642,17 +1642,6 @@ body {
 
     #customer li {
         width: 31%;
-    }
-
-    #customer ul li .box .click a {
-        display: block;
-        margin-bottom: 20px;
-        padding: 20px 0px;
-        background: var(--primary-color);
-        border-radius: 50px;
-        color: var(--white);
-        width: 100%;
-        font-size: 14px;
     }
 
     #customer ul li .box {
