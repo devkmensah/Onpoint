@@ -212,6 +212,10 @@ body {
     background: var(--hover-color);
 }
 
+#start .bg-color .car-cover .phone-area button:focus {
+    outline: none;
+}
+
 /* TEXT////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* TOP SECTION */
